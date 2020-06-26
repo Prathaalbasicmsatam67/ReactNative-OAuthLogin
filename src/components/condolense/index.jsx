@@ -82,7 +82,7 @@ class Condolence extends Component {
       <>
         <div className='container custom_container'>
           <nav className='navbar navbar-expand-md '>
-            <div className='leftHeader'>
+            {/* <div className='leftHeader'>
               <h2>In Loving Memory</h2>
               <p>
                 <b>Shri. Arunkumar Ramniklal Mehta </b>
@@ -91,7 +91,7 @@ class Condolence extends Component {
             </div>
             <div className='RightHeader'>
               <img alt='' src={logo} />
-            </div>
+            </div> */}
           </nav>
 
           <div className='feed_container'>
@@ -104,7 +104,7 @@ class Condolence extends Component {
               />
             </div>
 
-            <p className='formTitle'>Your Condolence Note</p>
+            <p className='formTitle'></p>
             <div className='submitForm'>
               <div id='SaveCondolenceMessage'>
                 <div className='row'>
@@ -143,12 +143,13 @@ class Condolence extends Component {
                     <p className='text-left successMess'>{message}</p>
                   </div>
                   <div className='col-6'>
-                    <button
+                    {/* <button
+                      style={'display: none;'}
                       onClick={() => this.submitData()}
                       className='btn condBtn pull-right'
                     >
                       Submit
-                    </button>
+                    </button> */}
                   </div>
                 </div>
               </div>
