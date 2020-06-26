@@ -1,0 +1,199 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+body {
+  background-color: #f2b1ab;
+}
+
+body,
+html {
+  height: 100%;
+}
+.App {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.playerOuter {
+  border: solid 1px #61dafb;
+}
+.navbar-static-top {
+  background: #fff;
+  float: left;
+  width: 100%;
+}
+.navbar-header {
+  float: left;
+}
+.minimalize-styl-2 {
+  padding: 3px 0px 2px;
+  margin: 5px 5px 5px 20px;
+  font-size: 14px;
+  float: left;
+}
+.navbar-form-custom {
+  float: left;
+  padding: 0;
+  display: table;
+  height: 35px;
+  margin: 15px 0 12px 10px;
+  padding: 0 0 0 20px;
+  border-left: solid 1px #ccc;
+}
+.navbar-form-custom .nav-gstn {
+  display: table-cell;
+  vertical-align: middle;
+}
+.navbar-top-links {
+  float: right;
+  margin: 24px 0;
+}
+.navbar-top-links li {
+  display: inline-block;
+  vertical-align: middle;
+}
+.navbar-top-links li:last-child {
+  margin-right: 20px;
+}
+.nav.navbar-top-links a.user_login_name {
+  padding: 15px 10px;
+}
+.clearfix {
+  clear: both;
+}
+.link {
+  clear: both;
+  width: 980px;
+  margin: 0px auto;
+}
+.link h1 {
+  font-weight: normal;
+  padding: 50px 0;
+  text-align: center;
+  color: #fff;
+  float: left;
+  width: 100%;
+}
+.ibox-title {
+  background-color: white;
+  margin-bottom: 0;
+  padding: 5px 15px;
+  border-bottom: 1px solid #ddd;
+  min-height: 42px;
+  font-weight: normal;
+  font-size: 16px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.ibox-title h4 {
+  color: #666;
+  font-size: 16px;
+  margin: 10px 0;
+}
+.masterCompLink {
+  width: 50%;
+  padding: 0 15px;
+  float: left;
+}
+.ibox {
+  width: 100%;
+  float: left;
+  background: #fff;
+  height: 200px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.ibox ul {
+  list-style-type: none;
+  padding: 0px 0px 0px 35px;
+  list-style: decimal;
+}
+.ibox ul li {
+  margin-bottom: 5px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+$column-width: 480px;
+$gutter-width: 20px;
+
+.app {
+  margin: auto;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+
+.section {
+  display: inline-block;
+  max-width: $column-width;
+  margin: $gutter-width;
+  text-align: left;
+  vertical-align: top;
+}
+
+.player-wrapper {
+  width: 480px;
+  height: 270px;
+}
+
+.react-player {
+  margin-bottom: 10px;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.faded {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.masterCompLink a {
+  font-size: 25px;
+  color: black;
+  text-decoration: none;
+  margin: 15px;
+}
+
+.footer {
+  margin: $gutter-width;
+}
+
+.loader {
+  size: 64px;
+  color: #00bfff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
