@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/ReactNative-OAuthLogin/static/css/main.1359096b.chunk.css",
+    "main.js": "/ReactNative-OAuthLogin/static/js/main.f1887b53.chunk.js",
+    "reactPlayerDailyMotion.js": "/ReactNative-OAuthLogin/static/js/reactPlayerDailyMotion.946a10d4.chunk.js",
+    "reactPlayerFacebook.js": "/ReactNative-OAuthLogin/static/js/reactPlayerFacebook.fc512122.chunk.js",
+    "reactPlayerFilePlayer.js": "/ReactNative-OAuthLogin/static/js/reactPlayerFilePlayer.e5f8ae16.chunk.js",
+    "reactPlayerMixcloud.js": "/ReactNative-OAuthLogin/static/js/reactPlayerMixcloud.0cb9fd01.chunk.js",
+    "reactPlayerSoundCloud.js": "/ReactNative-OAuthLogin/static/js/reactPlayerSoundCloud.7a010775.chunk.js",
+    "reactPlayerStreamable.js": "/ReactNative-OAuthLogin/static/js/reactPlayerStreamable.cc6e0595.chunk.js",
+    "reactPlayerTwitch.js": "/ReactNative-OAuthLogin/static/js/reactPlayerTwitch.b4934972.chunk.js",
+    "reactPlayerVidyard.js": "/ReactNative-OAuthLogin/static/js/reactPlayerVidyard.b7be5eeb.chunk.js",
+    "reactPlayerVimeo.js": "/ReactNative-OAuthLogin/static/js/reactPlayerVimeo.7bfa7d02.chunk.js",
+    "reactPlayerWistia.js": "/ReactNative-OAuthLogin/static/js/reactPlayerWistia.e161c321.chunk.js",
+    "reactPlayerYouTube.js": "/ReactNative-OAuthLogin/static/js/reactPlayerYouTube.b043b746.chunk.js",
+    "runtime-main.js": "/ReactNative-OAuthLogin/static/js/runtime-main.7a35c034.js",
+    "static/js/13.ea858a8a.chunk.js": "/ReactNative-OAuthLogin/static/js/13.ea858a8a.chunk.js",
+    "static/js/14.1757e013.chunk.js": "/ReactNative-OAuthLogin/static/js/14.1757e013.chunk.js",
+    "static/css/15.53785d6a.chunk.css": "/ReactNative-OAuthLogin/static/css/15.53785d6a.chunk.css",
+    "static/js/15.b9f7f025.chunk.js": "/ReactNative-OAuthLogin/static/js/15.b9f7f025.chunk.js",
+    "static/js/16.ee27ee4a.chunk.js": "/ReactNative-OAuthLogin/static/js/16.ee27ee4a.chunk.js",
+    "index.html": "/ReactNative-OAuthLogin/index.html",
+    "precache-manifest.c63a4333f65377e455277e5b5de26746.js": "/ReactNative-OAuthLogin/precache-manifest.c63a4333f65377e455277e5b5de26746.js",
+    "service-worker.js": "/ReactNative-OAuthLogin/service-worker.js",
+    "static/js/13.ea858a8a.chunk.js.LICENSE.txt": "/ReactNative-OAuthLogin/static/js/13.ea858a8a.chunk.js.LICENSE.txt",
+    "static/js/14.1757e013.chunk.js.LICENSE.txt": "/ReactNative-OAuthLogin/static/js/14.1757e013.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7a35c034.js",
+    "static/js/14.1757e013.chunk.js",
+    "static/css/main.1359096b.chunk.css",
+    "static/js/main.f1887b53.chunk.js"
+  ]
+}
