@@ -65,6 +65,19 @@ class Condolence extends Component {
 
   render() {
     const { message } = this.state;
+    const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+
+    const config = {
+      file: {
+        forceHLS: !isSafari,
+        forceVideo: true,
+        hlsVersion: '0.12.4',
+        attributes: {
+          disablePictureInPicture: true,
+        },
+      },
+    };
+
     return (
       <>
         <div className='container custom_container'>
@@ -83,11 +96,12 @@ class Condolence extends Component {
 
           <div className='feed_container'>
             <div className='feed_video'>
-              <video
+              <ReactPlayer
                 id='video'
-                src='https://bitdash-a.akamaihd.net/content/MI201109210084_1/m3u8s/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.m3u8'
+                url='https://bitdash-a.akamaihd.net/content/MI201109210084_1/m3u8s/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.m3u8'
                 controls
-              ></video>
+                config={config}
+              />
             </div>
 
             <p className='formTitle'>Your Condolence Note</p>
