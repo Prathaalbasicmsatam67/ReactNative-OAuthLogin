@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3197bf9ed482ae597c4ffbf3d34a6970",
+    "revision": "218df5387d55103c462e24741aa7e288",
     "url": "/ReactNative-OAuthLogin/index.html"
   },
   {
-    "revision": "e7b13161352943dd0c99",
+    "revision": "95df80b7b3e813412c49",
     "url": "/ReactNative-OAuthLogin/static/css/15.dd220e40.chunk.css"
   },
   {
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ReactNative-OAuthLogin/static/js/14.1757e013.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e7b13161352943dd0c99",
-    "url": "/ReactNative-OAuthLogin/static/js/15.c2793f9a.chunk.js"
+    "revision": "95df80b7b3e813412c49",
+    "url": "/ReactNative-OAuthLogin/static/js/15.f5793981.chunk.js"
   },
   {
     "revision": "df4e1ac0766bff39309a",
@@ -84,7 +84,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ReactNative-OAuthLogin/static/js/reactPlayerYouTube.b043b746.chunk.js"
   },
   {
-    "revision": "4b66c9717f873cb69017",
-    "url": "/ReactNative-OAuthLogin/static/js/runtime-main.5368d96e.js"
+    "revision": "8f35b3bc9b03ddbe9421",
+    "url": "/ReactNative-OAuthLogin/static/js/runtime-main.7d700300.js"
   }
 ]);

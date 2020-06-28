@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ReactNative-OAuthLogin/precache-manifest.9a14e49fa9db41c6122ba4518444268f.js"
+  "/ReactNative-OAuthLogin/precache-manifest.327e03bc992201cf221a53c333a918e8.js"
 );
 
 self.addEventListener('message', (event) => {
